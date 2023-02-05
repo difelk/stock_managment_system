@@ -1,0 +1,108 @@
+.error_msg {
+  font-family: calibri;
+  font-size: 12px;
+  text-align: left;
+  color: #dd3f42;
+}
+
+.input_group,
+.select_group {
+  position: relative;
+  width: 100%;
+}
+
+.form_model_header_title {
+  margin-bottom: 55px;
+}
+.form_model_header_title h5 {
+  font-family: "calibri";
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.space_top_8 {
+  margin-top: 8px !important;
+}
+
+.space_bottom_8 {
+  margin-bottom: 8px !important;
+}
+
+.space_top_24 {
+  margin-top: 24px !important;
+}
+
+.space_top_28 {
+  margin-top: 28px !important;
+}
+
+.space_top_40 {
+  margin-top: 40px !important;
+}
+
+.submit_btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 135px;
+  margin: 0 auto;
+}
+
+.input_group input {
+  font-size: 12px;
+}
+
+.input_group input:focus {
+  border: none;
+  color: #212121 !important;
+  border-bottom: 1px solid gray;
+}
+
+.select_group select:focus {
+  border: none;
+  color: #212121 !important;
+  border-bottom: 3px solid #0d6ded;
+}
+.select_group select:focus {
+  outline: none;
+  border: none;
+  color: #ffffff;
+  border-bottom: 3px solid #0d6ded;
+}
+
+.input_group,
+.select_group label {
+  position: absolute;
+  color: #989898;
+  font-size: 12px;
+  transform: translateY(2px);
+  transition: all 0.3s ease;
+}
+
+.input_group,
+.select_group .lb_active {
+  font-size: 14px;
+  color: #0d6ded;
+  transform: translateY(-18px);
+}
+
+.submit_btn button {
+  padding: 8px !important;
+}
+
+.select_group label {
+  color: gray;
+}
+
+.select_group select {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid gray;
+  font-size: 12px;
+}
+
+.select_group select option {
+  background-color: gray;
+  color: #212121;
+}

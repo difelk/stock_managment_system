@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>DASHBOARD</title>
+  <link rel="stylesheet" href="../css/dashboard.css">
+  <link rel="stylesheet" href="../css/form.css">
+  <link rel="stylesheet" href="../css/page.css">
+</head>
+
+<body>
+
+
+  <div class="dashboard_wrapper">
+    <div class="dashboard_nav">
+
+      <div class="dashboard_nav_links_wrapper">
+        <div class="dashboard_logo">
+          <img src="../img/icons/photos.png" alt="">
+          <div class="add_img">
+            <button type="button" name="button"> <img src="../img/icons/plus.png" alt=""> </button>
+          </div>
+
+
+          <div class="img_upload_model model_container hide">
+            <div class="img_upload_model_wrapper">
+              <div class="close_btn">
+                <button type="button" name="button"> <img src="../img/icons/close.png" alt=""> </button>
+              </div>
+              <div class="img_upload">
+                <div class="upload_container">
+                  <div>
+                    <h3>Upload image</h3>
+                  </div>
+                  <div>
+                    <label><img src="../img/icons/upload_icon.png" alt="upload image">
+                      <input type="file" name="image" class="btn_img" accept="image/*" id="file-upload"></label>
+                  </div>
+                  <p class="file_name"></p>
+                  <div>
+                    <p>Click icon to upload image</p>
+                  </div>
+                  <p class="error_msg file_type_error"></p>
+                  <div class="save_button">
+                    <button type="button">Save</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <ul>
+          <!-- <li><img src="menu.png" alt=""> <a href="index.php?page=home">Dashboard</a></li> -->
+          <li class="active_link"><img src="../img/icons/menu.png" alt=""> <a href="#">Dashboard</a></li>
+          <li id="inventory_nav" class="group_nav"><img src="../img/icons/box.png" alt=""> <a href="#">Inventory</a>
+          <li class="sub_nav sub_nav_disabled"> <a href="#">product</a> </li>
+          <li class="sub_nav sub_nav_disabled"> <a href="#">quantity</a> </li>
+          </li>
+          <li><img src="../img/icons/group.png" alt=""> <a href="#">User</a></li>
+          <li><img src="../img/icons/supplier.png" alt=""> <a href="#">Supplier</a></li>
+          <li><img src="../img/icons/structure.png" alt=""> <a href="#">Department</a></li>
+          <li><img src="../img/icons/store.png" alt=""> <a href="#">Store</a></li>
+          <li><img src="../img/icons/menu.png" alt=""> <a href="#">Purchase Order</a></li>
+        </ul>
+
+      </div>
+
+    </div>
+
+    <div class="dashboard_content">
+
+      <div class="content_top_nav">
+
+        <div class="dashboard_top_nav">
+          <div class="selected_link" id="display_header_text">
+            <h5>DASHBOARD</h5>
+          </div>
+          <div class="d_flex_row">
+            <div class="dropddown_section notif_section">
+              <img src="../img/icons/mail.png" alt="">
+            </div>
+            <div class="dropdown_list notif_dropdown hide">
+              <ul>
+                <li><a href="#">Profile settings</a></li>
+                <li><a href="#">Account settings</a></li>
+                <li><a href="#">Personal settings</a></li>
+                <li><a href="#">Logout</a></li>
+              </ul>
+            </div>
+            <div class="dropddown_section msg_section ">
+              <img src="../img/icons/bell.png" alt="">
+            </div>
+            <div class="dropdown_list msg_dropdown hide">
+              <ul>
+                <li><a href="#">Profile settings</a></li>
+                <li><a href="#">Account settings</a></li>
+                <li><a href="#">Personal settings</a></li>
+                <li><a href="#">Logout</a></li>
+              </ul>
+            </div>
+
+            <div class="dropddown_section profile_section">
+              <div class="username_circle">
+                <p class="text">DF</p>
+                <img src="../img/icons/downarrow.png" alt="">
+              </div>
+              <div class="dropdown_list profile_dropdown hide">
+                <ul>
+                  <li><a href="#">Profile settings</a></li>
+                  <li><a href="#">Account settings</a></li>
+                  <li><a href="#">Personal settings</a></li>
+                  <li><a href="#">Logout</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+
+      </div>
+      <div class="content_body">
+
+
+        <div class="wrapper">
+
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+
+  <script src="../js/dropdownList.js" charset="utf-8"></script>
+  <script src="../js/activeNavBtn.js" charset="utf-8"></script>
+  <script src="../js/routes.js" charset="utf-8"></script>
+  <script src="../js/model.js" charset="utf-8"></script>
+  <script src="../js/imageValidation.js" charset="utf-8"></script>
+</body>
+
+</html>

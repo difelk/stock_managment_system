@@ -1,0 +1,148 @@
+.admin_content_wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.admin_content_control {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.fs_sm {
+  font-size: 12px;
+}
+
+.admin_content_wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.admin_table_wrapper {
+  width: 100%;
+  margin: 16px 0;
+}
+
+.admin_table_wrapper table {
+  width: 100%;
+  text-align: left;
+}
+
+.admin_table_wrapper table th {
+  padding: 12px 8px;
+  color: #6b7a92;
+  background-color: #222e3b;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.admin_table_wrapper table td {
+  font-family: calibri;
+  padding: 8px;
+  color: #ffffff;
+  background-color: #23292f;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.action_btns {
+  display: flex;
+  align-items: center;
+}
+
+.action_btns button {
+  width: 32px;
+  height: 32px;
+  border-radius: 50px;
+  border: none;
+}
+
+.action_btns button {
+  margin-right: 16px;
+  position: relative;
+  cursor: pointer;
+}
+.action_btns button:last-child {
+  margin-right: 0;
+}
+
+.action_btns button img {
+  width: 12px;
+  height: 12px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.action_edit {
+  background-color: #ebbe7a;
+}
+
+.action_delete {
+  background-color: #d64646;
+}
+
+.left_icon_btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: 700;
+}
+
+.left_icon_btn img {
+  width: 25px;
+  height: 25px;
+  margin-right: 8px;
+}
+
+.sort_option {
+  display: flex;
+  align-items: center;
+}
+.sort_option label {
+  margin-right: 4px;
+  color: #878fb0;
+  font-size: 13px;
+}
+
+.sort_option select {
+  background-color: transparent;
+  border: none;
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: 700;
+  background-color: unset;
+}
+
+.sort_option select option {
+  background-color: #212121;
+  padding: 2px;
+}
+
+.round_btn_refresh {
+  margin-left: 8px;
+}
+
+.round_btn_refresh button {
+  background-color: unset;
+  width: 32px;
+  height: 32px;
+  border: none;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: transform 1s;
+}
+
+.round_btn_refresh .rotate_btn {
+  transform: rotate(360deg);
+}

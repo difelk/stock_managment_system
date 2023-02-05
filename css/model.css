@@ -1,0 +1,129 @@
+.model_container {
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #ffffff;
+  z-index: 10;
+}
+
+.product_add_model {
+  position: relative;
+  width: 400px;
+  height: 600px;
+}
+
+.product_delete_model {
+  width: 400px;
+  height: 200px;
+}
+
+.model_wrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: calibri;
+}
+
+.model_wrapper .close_btn {
+  width: 22px;
+  height: 22px;
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  transition: transform 1s ease;
+}
+
+.model_wrapper .close_btn button {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 1px 3px 0px #747070;
+  cursor: pointer;
+}
+
+.model_wrapper .close_btn button:hover {
+  transform: scale(1.1);
+}
+
+.model_wrapper .close_btn button img {
+  width: 10px;
+  height: 10px;
+}
+
+.model_wrapper .img_upload {
+  padding: 12px;
+  position: relative;
+}
+
+.model_wrapper .img_upload .img_upload_form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.model_wrapper .img_upload form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.model_wrapper .img_upload form label {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.model_wrapper .img_upload form input[type="file"] {
+  width: 100px;
+  margin: 0 auto;
+  padding: 8px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.product_delete_model .confirmation_wrapper .confirmation_header h5 {
+  font-size: 18px;
+  margin: 8px 0;
+}
+
+.product_delete_model .confirmation_wrapper .confirmation_header p {
+  color: #8d8d8d;
+  margin: 8px 0;
+}
+
+.product_delete_model .confirmation_wrapper .confirmation_btn_wrapper {
+  position: absolute;
+  bottom: 20px;
+  right: 55px;
+}
+
+.confirmation_cancel_btn button {
+  padding: 8px;
+  min-width: 100px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.cencel_btn {
+  border: 2px solid #aaa6a6;
+  color: #6f6b6b;
+  margin-right: 16px;
+}
+
+.delete_btn {
+  background-color: #e54a19;
+  border: none;
+  color: #ffffff;
+}
